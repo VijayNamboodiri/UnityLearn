@@ -223,6 +223,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   topBound: 25
+  bottomBound: -10
 --- !u!1 &130812
 GameObject:
   m_ObjectHideFlags: 0

@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 403182}
   - component: {fileID: 3392904}
   - component: {fileID: 2345522}
-  - component: {fileID: -7346522963532631534}
-  - component: {fileID: 427489734033760970}
+  - component: {fileID: -491617517357817145}
+  - component: {fileID: 975911073110624069}
   m_Layer: 0
   m_Name: Food_Organic_Carrot
   m_TagString: Untagged
@@ -85,7 +85,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &-7346522963532631534
+--- !u!114 &-491617517357817145
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -98,7 +98,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 30
---- !u!114 &427489734033760970
+--- !u!114 &975911073110624069
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -110,3 +110,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8aea8af7ecd62df438f7436afb848ba7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  topBound: 25
+  bottomBound: -10
