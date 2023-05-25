@@ -236,6 +236,8 @@ GameObject:
   - component: {fileID: 9545864}
   - component: {fileID: 192547747031726141}
   - component: {fileID: 3361141125300021018}
+  - component: {fileID: 2148604574383746783}
+  - component: {fileID: -6808277446406895622}
   m_Layer: 0
   m_Name: Dog_RhodesianRidgeback_01
   m_TagString: Untagged
@@ -342,6 +344,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 30
+--- !u!65 &2148604574383746783
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 105536}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.15564077, y: 0.3464206, z: 0.41956186}
+  m_Center: {x: -0.003019154, y: 0.10362215, z: 0.040730476}
+--- !u!114 &-6808277446406895622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 105536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41ea8bdf01ee72f4fbb137d3e94ce6b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &105990
 GameObject:
   m_ObjectHideFlags: 0

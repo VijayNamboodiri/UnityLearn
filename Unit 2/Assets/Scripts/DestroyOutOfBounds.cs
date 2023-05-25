@@ -6,8 +6,9 @@ public class DestroyOutOfBounds : MonoBehaviour
 {
     public float topBound = 25.0f; //Max distance before destruction    
 
-    public float bottomBound = -10.0f; //min distance
+    public float bottomBound = -10.0f; //min distance]
 
+    
 
     // Start is called before the first frame update
     void Start()
@@ -20,7 +21,11 @@ public class DestroyOutOfBounds : MonoBehaviour
     {
         if(transform.position.z > topBound || transform.position.z < bottomBound)
         {
-            Destroy(gameObject);    
+            Destroy(gameObject);
+            SpawnManager.instance.hungryAnimals += 1;
+
+
         }
+        
     }
 }
