@@ -1,12 +1,12 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DestroyOutOfBounds : MonoBehaviour
+public class DestroyOutOfBoundsX : MonoBehaviour
 {
     public float topBound = 25.0f; //Max distance before destruction    
 
-    public float bottomBound = -10.0f; //min distance]
+    //public float bottomBound = -10.0f; //min distance]
 
     
 
@@ -19,7 +19,7 @@ public class DestroyOutOfBounds : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(transform.position.z > topBound || transform.position.z < bottomBound)
+        if(transform.position.x < topBound)
         {
             Destroy(gameObject);
             //SpawnManager.instance.hungryAnimals += 1;
